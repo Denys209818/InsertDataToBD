@@ -12,7 +12,7 @@ namespace InsertDataToDb
         {
             Console.OutputEncoding = Encoding.Unicode;
             Console.InputEncoding = Encoding.Unicode;
-            string sqlConn = "Data Source=denyskravchuk.database.windows.net;Initial Catalog=Academy;Persist Security Info=True;User ID=denys;Password=$denus2005$";
+            string sqlConn = "Data Source=serverpu816.database.windows.net;Initial Catalog=test;User ID=pu816;Password=Qwerty1*";
             SqlConnection sql = new SqlConnection(sqlConn);
             try
             {
